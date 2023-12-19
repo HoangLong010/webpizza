@@ -18,7 +18,7 @@
 
             <div id="menu">
                 <div class="item">
-                    <a href="#">Trang chủ</a>
+                    <a href="../Main/index.php">Trang chủ</a>
                 </div>
                 <div class="item">
                     <a href="#">Giới thiệu</a>

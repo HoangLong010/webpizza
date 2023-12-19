@@ -21,7 +21,7 @@
                     <a href="#main">Trang chủ</a>
                 </div>
                 <div class="item">
-                    <a href="/gioithieu/gioithieu.php">Giới thiệu</a>
+                    <a href="../gioithieu/gioithieu.php">Giới thiệu</a>
                 </div>
                 <div class="item">  
                     <a href="#products">Sản phẩm</a>
@@ -158,7 +158,7 @@
                 </div>
                 <div class="product-content">
                     <div class="item">
-                        <a href="./sanpham1/sanpham1.php">
+                        <a href="../sanpham1/sanpham1.php">
                             <img src="img/product1.jpg" alt="">
                             <div class="item-body">
                                     <p>Burrata Parma Ham</p>
@@ -167,7 +167,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="./sanpham2/sanpham2.php">
+                        <a href="../sanpham2/sanpham2.php">
                             <img src="img/product2.jpg" alt="">
                             <div class="item-body">
                                     <p>Milano Salami</p>
@@ -176,7 +176,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="./sanpham3/sanpham3.php">
+                        <a href="../sanpham3/sanpham3.php">
                             <img src="img/product3.jpg" alt="">
                             <div class="item-body">
                                     <p>Pizza 3 Cheese</p>
@@ -185,7 +185,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="./sanpham4/sanpham4.php">
+                        <a href="../sanpham4/sanpham4.php">
                             <img src="img/product4.jpg" alt="">
                             <div class="item-body">
                                     <p>Pizaa Mayonnaise</p>
@@ -194,7 +194,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="./sanpham5/sanpham5.php">
+                        <a href="../sanpham5/sanpham5.php">
                             <img src="img/product5.jpg" alt="">
                             <div class="item-body">
                                     <p>Basil Sauce Spaghetti</p>
@@ -203,7 +203,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="./sanpham6/sanpham6.php">
+                        <a href="../sanpham6/sanpham6.php">
                             <img src="img/product6.jpg" alt="">
                             <div class="item-body">
                                     <p>Crab Tomato Spaghetti</p>
@@ -212,7 +212,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="./sanpham7/sanpham7.php">
+                        <a href="../sanpham7/sanpham7.php">
                             <img src="img/product7.jpg" alt="">
                             <div class="item-body">
                                     <p>Baked Lasagne</p>
@@ -221,7 +221,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="./sanpham8/sanpham8.php">
+                        <a href="../sanpham8/sanpham8.php">
                             <img src="img/product8.jpg" alt="">
                             <div class="item-body">
                                     <p>Tender Beef</p>
@@ -230,7 +230,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="./sanpham9/sanpham9.php">
+                        <a href="../sanpham9/sanpham9.php">
                             <img src="img/product9.jpg" alt="">
                             <div class="item-body">
                                     <p>Rich Cacao</p>
@@ -239,7 +239,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="./sanpham10/sanpham10.php">
+                        <a href="../sanpham10/sanpham10.php">
                             <img src="img/product10.jpg" alt="">
                             <div class="item-body">
                                     <p>Ricotta Ice-cake</p>
@@ -248,7 +248,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="./sanpham11/sanpham11.php">
+                        <a href="../sanpham11/sanpham11.php">
                             <img src="img/product11.jpg" alt="">
                             <div class="item-body">
                                     <p>Fozen Yogurt</p>
@@ -257,7 +257,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="./sanpham12/sanpham12.php">
+                        <a href="../sanpham12/sanpham12.php">
                             <img src="img/product12.jpg" alt="">
                             <div class="item-body">
                                     <p>Fondant Chocalate Cake</p>
