@@ -55,3 +55,33 @@ modal.addEventListener('click',exitLoginAccount )
 modalContainer.addEventListener('click', function(event){
   event.stopPropagation();
 })
+
+// // Modal đăng ký
+
+const dangky = document.querySelectorAll('.dangky');
+const modal1 = document.querySelector('.js-modal1');
+const modalClose1 = document.querySelector('.js-modal-close1');
+const modalContainer1 = document.querySelector('.js-modal-container1');
+
+function dangkyaccount(){
+  modal1.classList.add('open');
+
+
+}
+
+// Hàm ẩn đăng ký
+function thoatdangky(){
+  modal1.classList.remove('open')
+}
+for(const i of dangky){
+  i.addEventListener('click', dangkyaccount)
+}
+
+modalClose1.addEventListener('click', thoatdangky)
+
+modal1.addEventListener('click',thoatdangky )
+
+modalContainer1.addEventListener('click', function(event){
+  event.stopPropagation();
+})
+

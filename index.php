@@ -21,7 +21,7 @@
                     <a href="#main">Trang chủ</a>
                 </div>
                 <div class="item">
-                    <a href="../gioithieu/gioithieu.php">Giới thiệu</a>
+                    <a href="gioithieu/gioithieu.html">Giới thiệu</a>
                 </div>
                 <div class="item">  
                     <a href="#products">Sản phẩm</a>
@@ -49,7 +49,7 @@
                     </button>
                 </div>
                 <div class="item">
-                   <button class="signin">
+                   <button class="dangky">
                         ĐĂNG KÝ
 
                    </button>
@@ -158,7 +158,7 @@
                 </div>
                 <div class="product-content">
                     <div class="item">
-                        <a href="../sanpham1/sanpham1.php">
+                        <a href="sanpham1/sanpham1.html">
                             <img src="img/product1.jpg" alt="">
                             <div class="item-body">
                                     <p>Burrata Parma Ham</p>
@@ -167,7 +167,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="../sanpham2/sanpham2.php">
+                        <a href="sanpham2/sanpham2.html">
                             <img src="img/product2.jpg" alt="">
                             <div class="item-body">
                                     <p>Milano Salami</p>
@@ -176,7 +176,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="../sanpham3/sanpham3.php">
+                        <a href="sanpham3/sanpham3.html">
                             <img src="img/product3.jpg" alt="">
                             <div class="item-body">
                                     <p>Pizza 3 Cheese</p>
@@ -185,7 +185,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="../sanpham4/sanpham4.php">
+                        <a href="sanpham4/sanpham4.html">
                             <img src="img/product4.jpg" alt="">
                             <div class="item-body">
                                     <p>Pizaa Mayonnaise</p>
@@ -194,7 +194,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="../sanpham5/sanpham5.php">
+                        <a href="sanpham5/sanpham5.html">
                             <img src="img/product5.jpg" alt="">
                             <div class="item-body">
                                     <p>Basil Sauce Spaghetti</p>
@@ -203,7 +203,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="../sanpham6/sanpham6.php">
+                        <a href="sanpham6/sanpham6.html">
                             <img src="img/product6.jpg" alt="">
                             <div class="item-body">
                                     <p>Crab Tomato Spaghetti</p>
@@ -212,7 +212,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="../sanpham7/sanpham7.php">
+                        <a href="sanpham7/sanpham7.html">
                             <img src="img/product7.jpg" alt="">
                             <div class="item-body">
                                     <p>Baked Lasagne</p>
@@ -221,7 +221,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="../sanpham8/sanpham8.php">
+                        <a href="sanpham8/sanpham8.html">
                             <img src="img/product8.jpg" alt="">
                             <div class="item-body">
                                     <p>Tender Beef</p>
@@ -230,7 +230,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="../sanpham9/sanpham9.php">
+                        <a href="sanpham9/sanpham9.html">
                             <img src="img/product9.jpg" alt="">
                             <div class="item-body">
                                     <p>Rich Cacao</p>
@@ -239,7 +239,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="../sanpham10/sanpham10.php">
+                        <a href="sanpham10/sanpham10.html">
                             <img src="img/product10.jpg" alt="">
                             <div class="item-body">
                                     <p>Ricotta Ice-cake</p>
@@ -248,7 +248,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="../sanpham11/sanpham11.php">
+                        <a href="sanpham11/sanpham11.html">
                             <img src="img/product11.jpg" alt="">
                             <div class="item-body">
                                     <p>Fozen Yogurt</p>
@@ -257,7 +257,7 @@
                         </a>
                     </div>
                     <div class="item">
-                        <a href="../sanpham12/sanpham12.php">
+                        <a href="sanpham12/sanpham12.html">
                             <img src="img/product12.jpg" alt="">
                             <div class="item-body">
                                     <p>Fondant Chocalate Cake</p>
@@ -491,6 +491,68 @@
             </footer>
         </div>
     </div>
+    
+        <!-- Giao diện đăng ký -->
+
+        <form action="reg.php" method="post">
+            <div class="modal1 js-modal1">
+                <div class="modal-container1 js-modal-container1">    
+                    <div class="modal-close1 js-modal-close1">
+                        <i class='bx bx-x'></i>
+                    </div>
+                    <header class="modal-header1">
+                        ĐĂNG KÝ
+                    </header>
+        
+                    <div class="modal-body1">
+                        
+                        <label for="fullname" class="modal-label">
+                            Họ và tên
+                        </label>
+                        <input id="fullname" type="text" name="fullname" placeholder="Họ và tên" class="modal-input">
+                        
+                        <label for="username" class="modal-label">
+                            Tên đăng nhập
+                        </label>
+                        
+                        <input id="username" type="text" class="modal-input" placeholder="Tên đăng nhập" name="username">
+                        
+                        <label for="password" class="modal-label">
+                            
+                            Mật khẩu
+                        </label>
+                        <input id="password" type="password" class="modal-input" placeholder="Mật khẩu" name="password">
+                        
+                        <label for="email" class="modal-label" >
+                            
+                            Email
+                        </label>
+                        <input id="email" type="email" class="modal-input" placeholder="Email" name="email">
+
+                        
+                        <label for="address" class="modal-label" >
+                            
+                            Mật khẩu
+                        </label>
+                        <input id="address" type="text" class="modal-input" placeholder="Địa chỉ" name="address">
+
+
+                        
+                        <button id="login" name="btn">
+                                Đăng ký
+                        </button>
+        
+        
+        
+                    </div>
+        
+                    <footer class="modal-footer1">
+                        <p class="modal-help1"><a href="">Quên mật khẩu?</a></p>
+                    </footer>
+                </div>
+            </div>
+        </form> 
+        
 
     <script src="main.js"></script>
     
